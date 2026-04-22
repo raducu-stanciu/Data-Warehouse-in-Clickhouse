@@ -34,7 +34,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # CONECTARE LA CLICKHOUSE
-client = clickhouse_connect.get_client(host='localhost', port=8123, username='radu', password='parola_ta123', database='default')
+client = clickhouse_connect.get_client(host='localhost', port=8123, username='****', password='***********', database='default')
 
 # SCENARII 
 queries = {
